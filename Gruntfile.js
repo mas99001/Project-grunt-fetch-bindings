@@ -4,8 +4,8 @@ module.exports = function (grunt) {
     grunt.initConfig({
       fetch_bindings: {
           options: {
-            src: "src/",
-            dest: "destination/paterns-par",
+            src: "src",
+            dest: "dist/confiles",
             wildcard: "**/*.html",
             handler: "contentData"
           },
