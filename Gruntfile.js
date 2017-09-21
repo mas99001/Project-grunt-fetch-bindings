@@ -4,10 +4,10 @@ module.exports = function (grunt) {
     grunt.initConfig({
       fetch_bindings: {
           options: {
-            src: "src",
+            src: "src/app/components/",
             dest: "dist/confiles",
-            wildcard: "**/*.html",
-            handler: "contentData"
+            wildcard: "**/*.component.ts",
+            bindname: "{'cmsKey':{"
           },
           files: {
             'dest/default_options': ['src/srcfile', 'src/123'],
