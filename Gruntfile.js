@@ -9,7 +9,7 @@ module.exports = function (grunt) {
             dest: "dist/",
             baseURL: "ui/idp/",
             outputfile: "config/selectorList.json",
-            bindname: "{'cmsKey':{"            
+            bindname: "'cmsKey'"            
           },
           files: {
             'dest/default_options': ['src/srcfile', 'src/123'],
